@@ -27,8 +27,9 @@ function validateCPF(cpf){
     }
  let soma = 0;
  let resto;
+ 
  // --------------------------------------------------------------------------------------------------------
-//  validação do primeiro digito verificador
+//  validação do primeiro digito verificador 
 for(let i = 1; i < 9; i++){
   soma += parseInt(cpf.substring(i-1, i)) * (11 - i)
 }
