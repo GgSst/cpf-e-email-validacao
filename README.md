@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Documentação de Validação de CPF e E-mail
 
 ## 1. Validação de CPF
